@@ -108,17 +108,20 @@ alumnet/
 
 ### Deploy to Netlify
 
-1. **Build the project**
+1. **Automatic Deployment (Recommended)**
+   - Connect your GitHub repository to Netlify
+   - Netlify will automatically use the `netlify.toml` configuration
+   - Build command: `npm run build` (from frontend directory)
+   - Publish directory: `dist` (relative to frontend)
+   - Deploy automatically on every push!
+
+2. **Manual Deployment**
    ```bash
    cd frontend
+   npm install
    npm run build
+   # Upload the 'dist' folder to Netlify
    ```
-
-2. **Deploy to Netlify**
-   - Connect your GitHub repository to Netlify
-   - Set build command: `cd frontend && npm run build`
-   - Set publish directory: `frontend/dist`
-   - Deploy!
 
 ### Deploy to Vercel
 
