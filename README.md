@@ -2,7 +2,7 @@
 
 A modern, full-featured alumni networking platform built with React. Connect with alumni, discover job opportunities, attend events, and grow your professional network.
 
-![ALUMNET Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=ALUMNET+Alumni+Network)
+![ALUMNET Preview]([https://via.placeholder.com/800x400/667eea/ffffff?text=ALUMNET+Alumni+Network](https://alumnet1.netlify.app/))
 
 ## ✨ Features
 
